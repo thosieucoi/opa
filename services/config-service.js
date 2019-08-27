@@ -17,8 +17,9 @@ export default {
       .catch(() => {
         return {
           XMPP_SERVER_ADDRESS: 'https://xmpp.trustscore.tech:7443/http-bind',
-          XMPP_SERVER_DOMAIN: 'chat',
-          APP_LOCALE: 'en-us'
+          XMPP_SERVER_DOMAIN: 'http://chat.trustscore.tech:3000/chat',
+          APP_LOCALE: 'en-us',
+          SHOW_USERS_WITHOUT_GROUPS: true
         };
       });
     return appConfig;
