@@ -3,7 +3,7 @@ const consola = require('consola');
 const { Nuxt, Builder } = require('nuxt');
 const app = express();
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 const BASE_URL = process.env.BASE_URL || 'http://chat.trustscore.tech';
 
 app.set('port', port);
