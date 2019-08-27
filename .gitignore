@@ -82,4 +82,4 @@ dist
 
 bundle
 
-app-config-dev.json
+.DS_Store
